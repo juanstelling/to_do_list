@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #b3b3b3, #75ad33);
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    margin: 15px 15px;
+    font-size: 25px;
+}
+
+
+#title {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+.addtask{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.task {
+    width: 100%;
+    background: rgb(247, 242, 242, 0.8);
+    color: #000;
+    font-weight: 600;
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.done .task {
+    background: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    font-weight: 600;
+}
+
